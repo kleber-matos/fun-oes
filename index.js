@@ -4,7 +4,7 @@ function aplicaDesconto(valor, desconto) {
     return (valor - (valor * (desconto / 100)))
 }
 
-function aplicaJuros (valor, juros) {
+function aplicaJuros(valor, juros) {
     return (valor + (valor * (juros / 100)))
 }
 
